@@ -10,5 +10,8 @@
     ],
     "require": {
         "php": ">=5.3"
+    },
+	"autoload": {
+        "psr-0": { "Javanile\\LightPDF\\": "src/" }
     }
 }
