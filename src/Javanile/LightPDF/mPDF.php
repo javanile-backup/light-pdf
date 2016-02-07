@@ -7651,6 +7651,8 @@ function Output($name='',$dest='')
 		else { $dest='F'; }
 	}
 
+	
+	
 /*-- PROGRESS-BAR --*/
 	if ($this->progressBar && ($dest=='D' || $dest=='I')) {
 		if($name=='') { $name='mpdf.pdf'; }
@@ -7704,7 +7706,7 @@ function Output($name='',$dest='')
 	else {
 		if ($this->progressBar) { $this->UpdateProgressBar(3,'','Finished'); }
 /*-- END PROGRESS-BAR --*/
-
+	
 		switch($dest) {
 		   case 'I':
 			if ($this->debug && !$this->allow_output_buffering && ob_get_contents()) { echo "<p>Output has already been sent from the script - PDF file generation aborted.</p>"; exit; }

@@ -23,4 +23,5 @@ $pdf = new mPDF();
 $pdf->WriteHTML('<p>Hallo World</p>');
 
 //
-$pdf->Output('filename.pdf');
+$pdf->Output();
+ 

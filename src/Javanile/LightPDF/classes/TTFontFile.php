@@ -1,7 +1,4 @@
 <?php
-
-namespace Javanile\LightPDF\classes;
-
 /*******************************************************************************
 * TTFontFile class                                                             *
 *                                                                              *
@@ -17,6 +14,8 @@ namespace Javanile\LightPDF\classes;
 * modification of the file.                                                    *
 *                                                                              *
 *******************************************************************************/
+
+namespace Javanile\LightPDF\classes;
 
 // Define the value used in the "head" table of a created TTF file
 // 0x74727565 "true" for Mac
