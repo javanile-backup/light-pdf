@@ -14,6 +14,11 @@
 
 namespace Javanile\LightPDF;
 
+use Javanile\LightPDF\classes\grad;
+use Javanile\LightPDF\classes\form;
+use Javanile\LightPDF\classes\cssmgr;
+use Javanile\LightPDF\classes\TTFontFile;
+
 function not_include($file) {}
 
 define('mPDF_VERSION','5.7.4');
