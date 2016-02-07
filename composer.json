@@ -1,19 +1,14 @@
 {
-    "name": "libertyframework/application",
-    "type": "framework",
-    "description": "Extreme Small PHP Framework",
-    "keywords": ["framework", "php", "web", "application"],
-    "homepage": "http://www.javanile.org/",
-    "license": "MIT",
+    "name": "javanile/lightpdf",
+    "type": "library",
+    "description": "A PHP class to generate PDF files from HTML with Unicode/UTF-8 and CJK support",
+    "keywords": ["php", "html", "pdf", "utf-8"],
+    "homepage": "https://github.com/Javanile/LightPDF",
+    "license": "GPL-2.0",
     "authors": [
-        {"name": "Francesco Bianco", "email": "bianco@javanile.org"},
-        {"name": "Vincenzo La Rosa", "email": "larosa@javanile.org"}
+        {"name": "Francesco Bianco", "email": "bianco@javanile.org"}
     ],
     "require": {
-        "php": ">=5.4",
-        "javanile/schemadb": "@dev",
-        "javanile/liberty": "@dev",
-        "javanile/urlman": "@dev",
-        "javanile/lightpdf": "@dev"       
+        "php": ">=5.3"
     }
 }
